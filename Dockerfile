@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-RUN apt-get update && install -y python python-pip python-setuptools python-dev build-essential python-pip python-mysqldb
+RUN apt-get update apt-get && install -y python python-pip python-setuptools python-dev build-essential python-pip python-mysqldb
 
 RUN pip install flask
 
